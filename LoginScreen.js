@@ -62,7 +62,7 @@ export default class LoginScreen extends React.Component {
 	async loginWithFacebook() {
 
 		//ENTER YOUR APP ID 
-		const { type, token } = await Facebook.logInWithReadPermissionsAsync('2270253866638040', { permissions: ['public_profile', 'email'] })
+		const { type, token } = await Facebook.logInWithReadPermissionsAsync('XXXXXXXXXXXXXXXXXX', { permissions: ['public_profile', 'email'] })
 
 		if (type == 'success') {
 
